@@ -1,0 +1,25 @@
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Runtime output
+*.log
+
+# User-generated downloads and local history
+downloads/*
+!downloads/.gitkeep
+
+# Local configuration and editor files
+.env
+.env.*
+.vscode/
+.idea/
